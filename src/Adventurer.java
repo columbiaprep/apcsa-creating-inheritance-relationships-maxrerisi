@@ -6,6 +6,7 @@ public class Adventurer extends Entity {
     private int currentMP;
     private int hardiness;
     private int wisdom;
+    private Stats myStats;
 
     public Adventurer(String name) {
         this.name = name;
